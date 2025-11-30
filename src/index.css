@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap");
+body {
+  font-family: "Tiro Bangla", serif;
+}
+
+.node__root > circle {
+  fill: red;
+}
+
+.node__branch > circle {
+  fill: yellow;
+}
+
+.node__leaf > circle {
+  fill: green;
+}
+.tree-svg {
+  width: 100%;
+}
+.rd3t-label {
+  font-size: 14px;
+}
+.rd3t-label .text {
+  dominant-baseline: middle;
+}
+.rd3t-label .attribute {
+  font-size: 12px;
+  fill: #555;
+}
+
+.rd3t-link:hover {
+  stroke: #555;
+  stroke-width: 3px;
+}
