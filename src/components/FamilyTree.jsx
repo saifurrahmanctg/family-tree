@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import Tree from "react-d3-tree";
-import CustomNode from "./CustomNode";
+// import CustomNode from "./CustomNode";
 
 const FamilyTree = ({ data }) => {
   const treeContainer = useRef(null);
@@ -29,7 +29,7 @@ const FamilyTree = ({ data }) => {
         branchNodeClassName="node__branch"
         leafNodeClassName="node__leaf"
         svgClassName="tree-svg "
-        renderCustomNodeElement={(rd3tProps) => <CustomNode {...rd3tProps} />}
+        // renderCustomNodeElement={(rd3tProps) => <CustomNode {...rd3tProps} />}
       />
     </div>
   );
