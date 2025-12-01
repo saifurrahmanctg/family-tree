@@ -1,16 +1,41 @@
-# React + Vite
+# Family Tree React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive **Family Tree Visualization App** built with **React.js** and **react-d3-tree**.  
+This application renders hierarchical family data into a dynamic, zoomable, and draggable tree layout, making it easy to explore family relationships across generations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Interactive Tree Visualization using `react-d3-tree`**
+- **Panning, Zooming & Collapsing**
+- **Add / Edit / Remove Family Members** (if implemented)
+- **Custom Node Rendering Support**
+- **Responsive SVG-based Layout**
+- **Clean Family Data Structure (JSON-based)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js  
+- react-d3-tree  
+- JavaScript / TypeScript  
+- CSS / Tailwind / Styled Components (update as needed)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/family-tree-app.git
+
+# Navigate into project folder
+cd family-tree-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
